@@ -1,0 +1,113 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Borel&family=Exo+2&family=Preahvihear&display=swap');
+h1{
+    font-family: 'Borel', cursive;
+font-family: 'Exo 2', sans-serif;
+font-family: 'Preahvihear', sans-serif;
+text-align: center;
+}
+body{
+    background: lightyellow;
+}
+.emoji-face{
+    background: yellow;
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    box-shadow: 2px 0px 2px 2px rgba(0,0,0,0.07);
+    position: relative;
+}
+.eye1{
+    background-color: black;
+    height: 11px;
+    width: 12px;
+    border-radius: 50%;
+    position: absolute;
+    top: 30px;
+    left:20px;
+}
+.eye2{
+    background-color: black;
+    height: 11px;
+    width: 12px;
+    border-radius: 50%;
+    position: absolute;
+    top: 30px;
+    right:20px;
+}
+.mouth{
+    background: red;
+    height: 34px;
+    width:70px;
+    border-radius: 0 0 90px 90px;
+    position:absolute;
+    top: 52px;
+    left: 16px;
+    z-index: 0;
+     overflow: hidden;   
+}
+.tongue{
+    background-color:orange;
+    width:38px;
+    height:38px;
+    border-radius: 40%;
+    position: absolute;
+    top:20px;
+    left:15px;
+    z-index: 2;
+
+}
+.mouth-shock{
+    background-color: red;
+    height: 25px;
+    width: 23px;
+    border-radius: 50%;
+    position: absolute;
+    top: 50px;
+    left: 40px;
+}
+.mouth-speechless{
+    background-color:black;
+    height: 5px;
+    width: 70px;
+    position: absolute;
+    top: 60px;
+    left: 16px;
+
+}
+.emoji-face{
+    float: left;
+    margin: 0px 20px 0px 0px;
+}
+
+/* fixing the emoji */
+.wrapper
+{
+    position: absolute;
+    top: 150px;
+    left:500px;
+}
+#heading{
+    text-align:center;
+    font-size: 4em;
+
+}
+h1{
+    font-size: 2em;
+}
+p{
+    font-size: 1.5em;
+
+}
+.emoji-face:hover{
+    background: green;
+    transform: scale(1.25);
+}
+.write-up{
+    background-color: #d8aa2b;
+    padding: 5% 10%;
+    margin: 10% 20%;
+    text-align: center;
+    border-radius: 20px;
+
+}
